@@ -55,7 +55,8 @@ Step-2: Host Multiple Docker Containers
     • Now go to the browser and type localhost and localhost/second, you can see the result.
     
   2. USE NGINX AS A LOAD BALANCER
-     In the loadbalancer.conf file, you need to add upstream and server. see the example below
+  
+      • In the loadbalancer.conf file, you need to add upstream and server. see the example below
      
 	     http {
 		   upstream backend {
