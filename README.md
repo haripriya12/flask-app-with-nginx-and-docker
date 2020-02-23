@@ -68,5 +68,5 @@ Step-2: Host Multiple Docker Containers
 				proxy_pass http://backend;
 			}
 		    }
-		}
+		 }
                            
