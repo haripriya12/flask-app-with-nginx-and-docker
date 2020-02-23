@@ -50,9 +50,9 @@ Step-2: Host Multiple Docker Containers
 		   }
            }
  
-    • nginx -t ( You can test, if nginx has errors)
-    • nginx -s reload ( or ) sudo syatemctl restart nginx.service (For start the nginx)
-    • Now go to the browser and type localhost and localhost/second, you can see the result.
+     	• nginx -t ( You can test, if nginx has errors)
+     	• nginx -s reload ( or ) sudo syatemctl restart nginx.service (For start the nginx)
+     	• Now go to the browser and type localhost and localhost/second, you can see the result.
     
   2. USE NGINX AS A LOAD BALANCER
   
