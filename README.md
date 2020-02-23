@@ -57,16 +57,16 @@ Step-2: Host Multiple Docker Containers
   2. USE NGINX AS A LOAD BALANCER
      In the loadbalancer.conf file, you need to add upstream and server. see the example below
      
-     http {
-	   upstream backend {
-	      server localhost:5555;
-	      server localhost:5556
-	   }
-	   server {
-	      listen 80;
-	      location / {
-	      		proxy_pass http://backend;
-	      	}
-	    }
-	}
+	     http {
+		   upstream backend {
+		      server localhost:5555;
+		      server localhost:5556
+		   }
+		   server {
+		      listen 80;
+		      location / {
+				proxy_pass http://backend;
+			}
+		    }
+		}
                            
